@@ -1,0 +1,168 @@
+:: StoryTitle
+Space Adventure Laika
+
+
+:: StoryAuthor
+Ms. Tea
+
+
+:: Start
+You are in a ROCKET. Obvious exits are NOWHERE.
+
+<<set $heat = 0>>
+<<set $cabinactions = {}>>
+<<set $thoughts = {
+	streets: true,
+	visit: true,
+	noise: true
+}>>
+<<display "Cabin actions">>
+
+
+:: Cabin actions
+<<if $cabinactions["smell"] and $cabinactions["look"] and $cabinactions["feel"]>>
+* [[think]]
+<<else>>
+<<actions "smell" "look" "feel" "move">>
+<<endif>>
+
+
+:: smell
+The small room smells mostly like you.
+
+When the big noise happened, you were very scared and marked the small room to make it yours. You can still smell the urine now, but you're not sure it mattered. You don't think anyone else will try to take this place from you.
+
+You also smell your SWEAT. It is very hot inside the small room and you feel bad. You have been sweating and panting since the big noise happened.
+
+<<set $cabinactions["smell"] = true>>
+<<display "Cabin actions">>
+
+
+:: look
+It is PITCH BLACK. You can see nothing inside. You don't have room to turn your head, but you don't think there is anything behind you either.
+
+All you can see is the small [[WINDOW|window]] in front of you.
+
+<<set $cabinactions["look"] = true>>
+<<display "Cabin actions">>
+
+
+:: window
+There is a small, round window in front of you. The window is dark too; it doesn't let any light into your room. You think it might be night.
+
+Outside the window are little lights, off in the distance. It looks a bit like a SKY at night, but you don't think you're looking up.
+
+You can't see a moon in the sky. You do see a big blue ball. It's bright, the only bright thing you've seen.
+
+<<display "Cabin actions">>
+
+:: feel
+Your BED is hard and very small. The sides touch you on either side, so you don't have room to move. When you stand up, you notice that the sides are about as tall as you are.
+
+You think that there is a wall at the back of the bed; your tail has touched it. But you can't turn around to check.
+
+When you lie down, you notice two strange things next to your head. It feels like metal. When you lick the first a tiny piece of food comes out; water comes out of the second. There isn't much, but the water makes you feel better.
+
+You notice when you turn your head that it feels like something is stuck to you. You really really want to scratch at it so it goes away, but your leg can't reach your head. There isn't enough room to scratch anything. You whine and hope it goes away soon.
+
+<<set $cabinactions["feel"] = true>>
+<<display "Cabin actions">>
+
+
+:: move
+<<display "Cabin movement actions">>
+
+
+:: Cabin movement actions
+You can't move. The room is very small. You have enough room to stand up, or to lie down. You try to turn around, but you can't&mdash;the BED you are in is too narrow.
+
+<<if $sit>>
+[[stand up]]
+<<else>>
+[[lie down]]
+<<endif>>
+
+<<display "Cabin actions">>
+
+
+:: lie down
+You lie down.
+<<set $sit = true>>
+<<display "Cabin movement actions">>
+
+
+:: stand up
+You stand up.
+<<set $sit = false>>
+<<display "Cabin movement actions">>
+
+
+:: think
+<<if $thoughts['streets']>>* [[Home]]<<endif>>
+<<if $thoughts['visit']>>* [[The trip out]]<<endif>>
+<<if $thoughts['noise']>>* [[The big noise]]<<endif>>
+
+
+:: Thought menu
+* [[stop thinking]]
+
+
+:: stop thinking
+You are still in the small room.
+
+<<if $heat == 0>><<display "Heat 0">>
+<<else if $heat == 1>><<display "Heat 1">>
+<<else if $heat == 2>><<display "Heat 2">>
+<<else if $heat == 3>><<display "Heat 3">>
+<<else>>This should not be possible. <<print $heat>> <<endif>>
+
+:: Heat 0
+It is very hot. You feel bad.
+
+Ever since the big noise ended, it has been getting hotter inside the small room.
+
+<<display "think">>
+
+:: Heat 1
+It's still getting hotter. You try to focus on something else.
+
+Your neck is itching. It's been itching since long before the big noise, but you've been trying to ignore it. You only have so many things to focus on, though, and as soon as you try to block out the heat you just start itching harder.
+
+You try to angle your head back so you can reach it with your leg, but your head hits the ceiling. It's too short.
+
+You think maybe you could reach if you stood up halfway, so you slowly rise to your feet. You turn your head as much as you can think you can get away with, then slowly&mdash;slowly&mdash;reach out your hind leg to try and touch your claws to your neck. You're nearly there, and&mdash;
+
+You slip and fall, almost.
+
+Something's not right. You hang, not quite falling, until your forelegs scramble enough against the ground to resettle yourself. Your stomach is in knots. You shrink down to try and forget what just happened.
+
+<<display "think">>
+
+:: Heat 2
+
+It's still getting hotter. You're panting.
+
+It's been steadily getting hotter since the big noise stopped. It's getting hard to bear. You can't stop panting. You can't stand up anymore. Your tongue feels awful.
+
+You feel very, very thirsty. You last drank a little awhile ago but you didn't feel good. Still, you feel like you should drink.
+
+You take a very short lick of the thing with the water. It makes you feel good for a moment, but your stomach feels so bad. You're worried you might throw it up again. You can't even look at the thing that gives food.
+
+You lay your head down between your paws. You just want it to stop.
+
+<<display "think">>
+
+:: Heat 3
+
+It is very hot.
+
+You feel awful. You stopped trying to eat or drink hours ago. You haven't moved in a long time.
+
+You can't stop panting but you can't feel your tongue anymore. Your can't keep your breaths regular. The rasping hurts your throat. You're afraid of what would hurt if you stopped. Your muzzle lies in a small puddle of vomit but moving your muzzle is too painful. You ignore it.
+
+You can't think about anything else anymore. Every thought is about the heat and the pain. Every breath is because of it and every breath fails.
+
+Out of energy, you close your eyes. Maybe you can shut it all out for awhile. You close your eyes [[and feel nothing]].
+
+
+:: and feel nothing

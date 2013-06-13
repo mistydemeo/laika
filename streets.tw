@@ -1,0 +1,264 @@
+:: Home
+
+You remember your old home.
+
+A very long time ago (almost longer than you can remember), you lived in another place. You were away from the big human place; here it was surrounded by trees, water, fields, only sometimes interrupted by narrow roads. And those roads were free of those terrible metal things which were everywhere in the human place. It was safe here.
+
+Not that there weren't humans here&mdash;they came through often during the day (rarely at night). But most of the time the humans were alone, or in small packs. It was almost never crowded. Crowds were dangerous. Crowds didn't like dogs that lived with dogs outside. That was why you stayed away from the city. Some dogs said that there was much more food in the city, and that life was easier there. That could be true. But dogs who lived in the city disappeared.
+
+You lived in your home with your mother, your brothers, your sisters. There were many of you in the pack. You used to run together, looking for food, finding exciting things. There were bad times, sometimes, but never as many as the good. You loved it there.
+
+[[that day]]
+
+
+:: that day
+
+That day was the last day you saw your old home.
+
+You lived away from the human place, but you visited it often. Sometimes&mdash;especially in winter&mdash;it was hard to find food at home. There was always food to be found in the human place. Some dogs lived near humans for that reason, but you knew it was a mistake. It was better to [[travel]].
+
+
+:: travel
+
+Near the place that you lived was an amazing building.
+
+One of your brothers discovered its secret when he was searching for food late one night. Inside that building was a kind of a magic machine. If only you could get inside, the machine would move faster than you thought was even possible and carry you incredible distances. You're not sure how far it goes; one day you had taken it the furthest it could possibly carry you, and it took you to a place you didn't even know existed in the world. But you do know that it takes you places that would take you days to walk.
+
+Travel is good because recognition is bad. Humans seem to like dogs, except when they know that dogs live without humans. They can't stand that. A dog that humans know lives outside is a target. For what, you're not sure, but you know that dogs disappear. Maybe they're hunted.
+
+Before your brother found the amazing secret you travelled into the human place only sometimes, and you were always sure never to revisit the same parts too soon. But with the machine you could travel incredible distances to so many places, you never risked being noticed.
+
+That was why you went out [[one winter morning]].
+
+
+:: one winter morning
+
+It was a terribly cold day. The snow made it hard to even run, and on days that dogs don't like to run neither will the prey. The squirrels had long ago gone to sleep in their trees, and the birds had gone away. There were animals at home but not many. There were far more hungry dogs than animals.
+
+So many days you went out. The routine began and ended about the same every time. You would wake up while it was still dark and make your way to the building with the magic machine, carefully. If you went too early, the building was sealed shut; if you went too late, there would be too many humans for it to be safe.
+
+But at this time it was safe. Humans didn't like to come out at that hour. Most days the only human around was the human by the door, usually too sleepy to be able to care much about a few dogs.
+
+Today there is no one but a single human. You think they're asleep. You, your sisters, and your brother walk quietly to go past them and [[down the stairs]] into the tunnel.
+
+
+:: down the stairs
+
+The tunnel is the strangest place you had ever seen, though by now it wasn't any stranger to you than anywhere else. It was such a thin dark place, narrower than a human street and with almost nothing there but the hard floors.
+
+There was very little light. The sun and moon can't reach here, but there are strange lights coming from the walls. They are just bright enough for you to be able to see the [[ledges]] on either side of you, and to look a bit down the [[tunnel]] in front of you. Your [[sisters and brother]] are sitting next to you. They don't really look interested in exploring today.
+
+<<set $train_arrival_turns = 0>>
+
+
+:: ledges
+
+There's a short drop just past the ledges. It's short enough that you think you could jump back up if you fell, but you're very careful not to get too close. Last winter, one of your sisters jumped down to explore how far the tunnel went and was killed by one of the big machines when it came.
+
+Behind you, your [[sisters and brother]] are sitting waiting for a big machine to come. The rest of the [[tunnel]] seems empty.
+
+<<set $train_arrival_turns = $train_arrival_turns + 1>>
+<<if $train_arrival_turns => 3>><<display "train arrival">><<endif>>
+
+
+:: tunnel
+
+The tunnel goes on for awhile; it would take you a few minutes to walk all the way down. It's dark, but there's enough light that you can tell there isn't anyone else down there. That's good. You don't usually see other dogs, but you don't want to run into any humans.
+
+The lower part of the tunnel continues into the darkness, well off in the distance. That's where the big machines come from and go. They're loud enough and bright enough that you can tell when one is coming, but there isn't anything now.
+
+There are [[ledges]] on either side of you, which are where the big machines will stop. Your [[sisters and brother]] are lying down to doze until a machine comes.
+
+<<set $train_arrival_turns = $train_arrival_turns + 1>>
+<<if $train_arrival_turns => 3>><<display "train arrival">><<endif>>
+
+
+:: sisters and brother
+
+You walk over and poke your older sister with your nose. She makes an annoyed sound and tries to bury her head deeper in her tail. Your younger sister's still sitting upright, so you walk over to sit with her. She seems glad for an excuse to use you as a pillow, and puts her head down on your feet.
+
+Today you're travelling with your oldest sister, one of your younger sisters, and your brother. You usually don't come here in groups larger than this; today was your turn to travel.
+
+It's your younger sister's first winter travelling; she was still too young to go that far away from home last year. It seems like the excitement of the first visit has mostly worn off, and now she's just interested in getting some food.
+
+You're standing a few feet away from the [[ledges]], and can see a good distance down the [[tunnel]].
+
+<<set $train_arrival_turns = $train_arrival_turns + 1>>
+<<if $train_arrival_turns => 3>><<display "train arrival">><<endif>>
+
+
+:: train arrival
+
+Your ears perk up as you hear a low metallic noise in the distance. It's coming.
+
+A moment later, and the big machine creaks slowly to a stop in front of you. You and your siblings get up, and enter as soon as the machine's door opens up. The bored-looking human behind the door pays no attention to you, and mostly seems interested in leaving.
+
+The inside is totally empty right now, so you have your choice of seats. Your sisters and brother sprawl out across the seats, taking as much room as they can. There's time enough for a nap while you wait. You ponder whether to sleep with [[your brother]], [[your older sister]], [[your younger sister]], or [[alone]].
+
+:: your brother
+
+Your brother picked one of the long benches; he's rolled himself into a ball at the end, leaving just enough room for you. You curl up next to him, and rest your tail on his back. His tail flicks but settles down again.
+
+<<display "waiting on the train">>
+
+
+:: your older sister
+
+Your older sister is already asleep on one of the benches. There's enough room for you next to her though, so you jump up and lay your head down on her back as a pillow. She grunts, but doesn't seem motivated enough to do anything about it.
+
+The rising and falling of your head as she breathes is hypnotic, and you find yourself nearly falling alseep. You try to stay awake and merely doze, so you can still pay attention to your surroundings.
+
+<<display "waiting on the train">>
+
+
+:: your younger sister
+
+Your younger sister is sitting up on one of the chairs next to the window. Now that the machine is in motion her curiosity is outweighing her hunger again, and she watches the shapes fly past the window. You wonder when the last time was that you were that interested; you've done this so many times you've stopped paying attention to the windows.
+
+There's room on the next seat over for you, so you climb up and sit with her.
+
+<<display "waiting on the train">>
+
+
+:: alone
+
+Today you felt like stretching out. You jump up onto one of the cushioned benches and stretch yourself out, taking as much of the bench as you can. You feel relaxed and happy, though you still keep a lazy eye open.
+
+<<display "waiting on the train">>
+
+
+:: waiting on the train
+
+This room is empty for now, but you want to keep an eye out for any humans who might come. You picked the room on the very end because humans don't seem to like this one, but you can't take too many chances. The machine makes deep rumbling and clanking sounds, which only occasionally slow down as the machine pulls in to another tunnel.
+
+You know that there's a risk that a human might enter every time the machine stops, though you know they usually don't pick a room like this one. You raise your head every time you come to a stop, and close your eyes again when you're satisfied that no one is coming.
+
+You usually pick a stop somewhere near the end of the line, so you have awhile to wait. You and your siblings haven't decided where to get off. One of you will [[decide to leave]] and the rest will follow.
+
+
+:: decide to leave
+
+You wake up to feel your younger sister prodding you with her nose. You must have fallen asleep.
+
+The machine is stopped, but when you look outside you see it's not the last stop. You don't have long before it will start up again, so you hurry off while you still have time to join your siblings.
+
+You step out into another dark tunnel, lit by the same strange lights on the walls. There are a few sleepy humans waiting for another machine, who seem too sleepy to pay any attention to you. The [[exit upstairs]] is just behind you.
+
+
+:: exit upstairs
+
+The light of the sun feels blinding after spending so long inside, and you have to close your eyes for a little bit just to help yourself adjust. It takes a minute before you're comfortable enough to be able to see well.
+
+Outside the building is a human road, only just starting to pick up in activity at this time of the morning. It's one of the safest times of day for you. The road stretches out [[to the left|streets to the left]] and [[to the right|streets to the right]].
+
+
+:: streets to the left
+
+Your sisters and your brother follow you down the sidewalk to the left. As you continue, you notice that the buildings this way seem to be smaller, less populated. You suppose that fewer humans is good, though of course there's less food in places without many people.
+
+Before long you reach a thin alleyway. That looks promising to you. You know that when humans are finished with food, they usually throw whatever is leftover into [[giant boxes]] in these places where they don't like to go.
+
+:: streets to the right
+
+Your sisters and your brother follow you to the right, where there seem to be bigger, more populated buildings. These kinds of places are riskier, but at the same time these places where humans gather often have human feeding places. There's always something left over. Sometimes you can dig up whatever the humans didn't want, and sometimes humans are willing to feed you.
+
+As you keep going, you notice a giant building that smells like food. It's hard to see on the inside, but it looks like it's filled with tables where humans will eat. You wag&mdash;this is probably a place you'll be able to find something to eat.
+
+Your older sister has her nose close to the ground; she seems to be stalking a scent. You follow her down the road, then down the corner into a small alley behind the building. It's not long before you stumble across one of the [[giant boxes]] that humans use to keep the things they don't want.
+
+
+:: giant boxes
+
+The giant box smells like more kinds of food than you know how to recognize. You can't explain why humans dump their food into places like this&mdash;don't they want it? You want it!
+
+Fortunately, it looks like the top of the box is open. Some of these boxes are sealed shut, which you don't understand; if they don't want the food in it, wouldn't they at least like someone else to have it? Thankfully you can reach this one, even if the entrance is high up off the ground. You step back, ready yourself, then [[leap|leap into the box]] over the ledge.
+
+
+:: leap into the box
+
+Your brother, then your sisters, follow you in. There's enough room for all of you.
+
+The smells are overpowering enough that you can't pick out anything in particular, so you just start digging in. You root around, eating anything solid enough to feel good, and avoiding the parts that seem to have gone bad. You eat so quickly you can't make out any individual flavours, but you don't really care. It's been so long since you've had a feast that just the feeling of loads of food going down your throat feels as good as you can possibly imagine.
+
+It takes awhile for you to be able to flop over the edge of the box and back onto the ground. Your sisters and brother collapse next to you. It's rare for you to be able to feast like this without being caught; usually someone comes to check on the noise and runs you away before you've had a chance to eat much. You're just lucky today, you suppose.
+
+The safest thing to do would be to find somewhere quiet to nap and get your energy back, but moving just feels like //so// much work right now. Maybe you can get away with [[napping here in the alley]] for awhile.
+
+
+:: napping here in the alley
+
+You meant to doze and pay attention to your surroundings, but it's only when the noise wakes you up that you realize you had fallen asleep. The sudden noise makes your ears shoot up. You open your eyes and scan the alley to see what's happening.
+
+Three humans are standing at the end of they alley. Their steps are loud; you can tell that they're not used to trying to conceal their actions. That means that they're probably not dangerous, but you're not sure why humans who look this well-fed would come to an alley like this. Usually your only competition is humans who need food like you, or the owners of the box, and these humans don't look like either.
+
+You try to avoid looking like you've noticed them, but you get more nervous as they approach you. Your older sister has already stood up and is backing away with her ears down. You decide that she's probably right; standing your ground at this point is dangerous. You [[back up slowly]], and watch for what the humans do.
+
+
+:: back up slowly
+
+One of the human men whistles and waves his hand towards you, like he wants you to come up to him. You don't like that. Sometimes if you're very hungry the risk can be worth it, but never when you're full. It doesn't even look like he has any food.
+
+He kneels down and reaches his hand out to you, palm up&mdash;still empty. You keep backing away. Your tail is low and your ears are flat against your head. He says something, in that high-pitched voice humans think dogs find appealing. Finally, as you keep moving away, he seems to lose patience and gets back up to talk with the other humans next to him. You [[turn to walk away]] with your sisters and your brother.
+
+
+:: turn to walk away
+
+Something shoots past your ear and hits something metal next to you. You run. You don't need to look back to know that whatever it was it came from that human.
+
+One of the humans shouts&mdash;you don't care which one&mdash;and you can hear them start to run after you. You run faster now. You've already lost sight of your sisters and your brother but right now that doesn't matter, you can find them again later. The alleyway continues [[straight|alley straight]], and turns off to [[the left|alley left]] and [[the right|alley right]].
+
+
+:: alley straight
+
+They can see you if you continue straight, but the alley is short and filled with garbage to cover you. It's easier for you to run through here than it is for them. Maybe they can't follow.
+
+You run so fast that you're nearly flying. You vaguely feel the hard ground tearing up your pawpads but you don't care about that right now. You duck left, past a can, right, past another big box. You hope that the humans can't follow you through this.
+
+Just as you reach another intersection there's another whizzing sound, and then pain. Something sharp hits your back and you stagger to the side for a moment. You try to shake it off and make a decision. You could continue [[straight|alley straight shot]], or turn [[left|street left shot]] or [[right|street right shot]].
+
+
+:: alley left
+
+You bank around the corner to the left as fast as you can, trying to use the garbage there as cover. You hope that the humans didn't see you.
+
+The turn takes you back to the street, returning the direction you came. It must be later in the day than you realized, because there are machines on the street now and humans on the sidewalk. You can't see either your sisters or your brother.
+
+It's too dangerous to go onto the road now, so you keep running down the sidewalk. You run through the legs of humans, or around them, hoping that the man chasing you can't see where you go. Just as you think you've lost them, you hear something fast coming through the air and something sharp hits you in the side. It hurts so much that you lose your balance, and you fall into one of the humans on the street. When you can stand up again, you notice that you've reached a corner. You could turn [[around the corner into an alley|alley straight shot]], or [[right onto another street|street right shot]].
+
+
+:: alley right
+
+You turn onto the street and run down the road away from where you came. You don't recognize the things here, but maybe the humans won't either.
+
+It's later than you thought, and the sidewalks and streets are beginning to fill already. That could be dangerous for you, but it also might be an opportunity if it makes it easier for you to slip out of sight. You run down the sidewalk, not caring if you force humans off the path or bump into any legs.
+
+Just before you reach another crossroads you hear something shoot through the air, and you're struck by something sharp so hard that you almost fall over. You barely recover your strength enough to be able to make a decision on whether to go [[down into the alley|alley straight shot]], or whether to turn [[left onto another street|street left shot]].
+
+
+:: alley straight shot
+
+You run down the alley. You seem to be having more trouble now avoiding the garbage. You don't feel well. Maybe that fall dazed you.
+
+You slip when you try to run past a garbage can, and you fall to the ground. <<display "home collapse">>
+
+
+:: street left shot
+
+You run down the busy sidewalk, but you're having trouble dodging the humans now. You try to run under a man's legs but you stumble and collapse onto his leg. He shouts something and kicks you away.
+
+All the humans are looking at you now. <<display "home collapse">>
+
+
+:: street right shot
+
+This section of street is less busy, and there are fewer humans here. That's good because you think you're having trouble running now. Maybe the pain from the sharp thing was too much for you.
+
+You bank to the side to dodge a garbage can but you lose your balance and stagger onto the street. A human shouts something. The world goes black for a time. You're not sure what happened, but you think you're on the sidewalk again. <<display "home collapse">>
+
+:: home collapse
+
+You look up and see the humans approaching you. One of them says something. You try to scramble to your feet but your legs won't pay attention. They twitch uselessly. You fight to stay focused but your eyelids feel too heavy. You can barely keep your eyes open.
+
+The last thing you can remember is one of the humans reaching his arms down to pick you up. Then [[all is black|stop thinking]].
+<<if $thoughts['streets']>> <<set $heat = $heat + 1>> <<endif>>
+<<set $thoughts['streets'] = false>>

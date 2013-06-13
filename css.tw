@@ -1,0 +1,76 @@
+:: CSS [stylesheet]
+
+html
+{
+	height: 100%;
+}
+
+body
+{
+	background-color: black;
+	background-repeat: no-repeat;
+}
+
+ul
+{
+	margin-left: 0.5em;
+	padding-left: 1.5em;
+	padding-top: 1.3em;
+	text-align: center;
+}
+
+li
+{
+	display: inline;
+	text-decoration: none;
+	margin-right: 6em;
+}
+
+a, a:hover
+{
+	color: #808080;
+}
+
+#main-container
+{
+	padding-top: 5%;
+	position: relative;
+	width: 100%;
+	height: 80%;
+	color: white;
+	background-color: transparent;
+	z-index: 2;
+}
+
+.content
+{
+	font-size: 26px;
+	line-height: 24px;
+}
+
+#header-container
+{
+	display: none;
+}
+
+#footer-container
+{
+	background-color: transparent;
+	box-shadow: none;
+	border-top: transparent;
+}
+
+#snapback
+{
+display: none;
+}
+
+#restart
+{
+	display: none;
+}
+
+html.js
+{
+	background-color: transparent;
+}

@@ -1,0 +1,53 @@
+:: The big noise
+
+You had been sitting in the small room for [[three days]] when [[it happened]].
+
+:: three days
+
+The humans woke you up to take you to the small room again. It had been so many times you stopped worrying about it anymore. Every so often, you were taken to the box and made to sit in it for a long time. You hate it but hating it didn't make you [[feel better]].
+
+:: feel better
+
+Today seemed different though.
+
+The humans took a lot longer putting you into the room today. Normally it's pretty simple; they strap you down into the bed, they set up your food, and they lock you in.
+
+Today you can sense that something is different. The humans are taking longer and seem concerned about something. They're not usually this careful. There isn't anything that could go wrong.
+
+Finally after a long time, they lock the door. All is dark, and you [[wait]].
+
+
+:: wait
+
+Three days go by.
+
+At first you thought they might just have forgotten about you. They've never left you more than a few hours before. It was by the time you figured out it must be night that you realized they weren't coming back.
+
+So you wait, for three long days, inside the dark little room. You have just enough room to move around, but you don't feel like moving. There's water and awul-tasting gel to eat, but you don't feel like eating. There's nowhere to piss or shit, but you haven't been able to [[in weeks]].
+
+
+:: in weeks
+
+So when the door opens again, you're shocked. You didn't expect them to come back. You thought that you were going to stay in the small room forever.
+
+You're devastated when they don't unstrap you. You whine and cry but that doesn't make them let you go. One of the humans takes some time to pet you, and says something comforting that doesn't make you feel better.
+
+One of the humans wipes your fur with something that smells terrible; the other one holds you. You flinch and yelp when the human attaches something to the sharp things they put in your skin. The human holding you strokes your fur and talks in a soft voice that doesn't make the pain go away.
+
+Finally, after a few minutes, they're done. The humans turn to go, but one turns back. He walks up to you again, leans in close, and kisses your nose. Then they both go, closing the door, and leave you alone again until [[it happens|it happened]].
+
+
+:: it happened
+
+It had been a bit noisy outside for awhile. Inside, all was calm; you didn't expect that the noise meant much to you.
+
+Suddenly the entire room shakes. A noise louder than anything you've heard before, a rumbling like the entire world is breaking. Before long it stops sounding like noise at all and sound shakes you like it could tear you apart. You huddle down but it's hard not to when the air itself fights you and [[pins you to the floor]].
+
+
+:: pins you to the floor
+
+You're shaking. Your stomach feels awful. The only reason you haven't thrown up is because you haven't eaten in days. The feeling keeps getting worse and won't stop.
+
+Finally you can't take it anymore and [[close your eyes|stop thinking]].
+<<if $thoughts['noise']>> <<set $heat = $heat + 1>> <<endif>>
+<<set $thoughts['noise'] = false>>

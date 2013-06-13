@@ -1,0 +1,196 @@
+:: The trip out
+
+You had been living in the cage with the two other dogs for a few months before the trip happened.
+
+Today, thankfully, you were in the big cage. This was where they had brought you when you first woke up, and where you had spent most of your time. For those first few days, you thought it was going to be okay. They fed you, they took you out to run, they seemed to care if you were well.
+
+You haven't been in the big cage long this time. Only yesterday did they let you out of the tiny cage, a place so small that you had no room to move, no room even to urinate or defecate. You still feel numb. Even after coming back you haven't been able to make yourself piss.
+
+The other two dogs sit off in corners of the cage, no longer interested in you or each other. You suppose they've been going through the same things you have.
+
+You hear [[footsteps]] approaching the cage.
+
+
+:: footsteps
+
+You slink back, whining. You don't cry anymore when they come to get you, but today it doesn't seem right. You only just came back to the big cage; they can't want you back again. You always get a break before they make you go back.
+
+Off in the corners the other two dogs completely ignore what's going on. Maybe they can tell that the human is only coming for you, or maybe they just don't care.
+
+The kennel door opens, and when the man calls for you you reluctantly [[follow]].
+
+
+:: follow
+
+You walk slowly, with your tail between your legs. You only barely keep up. With each step you think about where he might be bringing you today. You don't want to go back into the tiny cage.
+
+It takes you a few minutes to notice that you're not walking towards the tiny cage. Instead the man takes you into one of the moving human machines. You stand staring at it. You've never been this close to one of these machines before. They're far more dangerous than the big machine near your home. You know that dogs who get near them die.
+
+You stand completely still, like a little statue of a little dog, too afraid to move. You think that you could take even the tiny cage better than the uncertainty. Maybe he's taking you [[somewhere worse]].
+
+
+:: somewhere worse
+
+Finally, the man grows tired of waiting for you. He picks you up and carries you into the machine. You sit, or rather lie, cowering the entire trip. You have no idea how long you lie there until finally you realize that the low visceral vibrations of the machine's movement, which you hadn't noticed when they started, stop. [[You've arrived.]]
+
+
+:: You've arrived.
+
+When the door opens you jump out of the machine. You're still shaking. You have no idea where you are, but knowing that you aren't locked in someplace is a relief you weren't expecting. You don't notice where you are until you start to calm down. Panting, you look back and forth.
+
+You stand in front of a small human house in a part of the city you've never been to before. The buildings here are smaller than what you're used to, and spaced far enough apart from each other that they're not touching.
+
+You realize that the man has been calling you. You didn't hear. You look over to see him standing next to a fence. [[The door is open|entering the backyard]].
+
+
+:: entering the backyard
+
+You follow. You're not sure you want to come, but, afraid, you don't know what your other options are. You're grateful to be outside and not to be in a cage for now.
+
+You stand in the yard behind the building still stressed and only beginning to calm down. You don't know why you're here. You don't know where you are. You don't know where the man went, or if he's [[coming back]].
+
+
+:: coming back
+
+A few minutes later, you notice the man come back out from a door at the back of the building.
+
+The man is followed by two young human children. They stare at you with surprise. They don't seem to have been expecting you. They say something to each other, then the father prods one of the children forward. The human child walks up to you and puts out a hand. You're not sure how to react.
+
+* [[growl]]
+* [[whine]]
+* [[lick]]
+* [[nothing]]
+
+
+:: growl
+
+You have no idea what's happening but you have had //enough//. You don't know why this child is here or why you're here or what this man is doing but you just want them to go away and leave you alone.
+
+You growl at the child. You want them to go //away//.
+
+The child jumps back scared. It starts to cry. Obviously concerned, the man tries to get close to you, but you growl again. This goes on for minutes until the man stays back to give you some space.
+
+You lose track of the next few hours; after awhile the man and the children give up and leave you to stay there in the yard, alone. <<display "didn't play conclusion">>
+
+:: whine
+
+You whine.
+
+The human child seems friendly, but you don't know how to react. You worry that if you do anything, maybe this okay place will go away again and you'll have to go back to the cage.
+
+<<display "inaction followup">>
+
+:: lick
+
+The child's hand smells interesting.
+
+This is one of the first times you've been able to smell a human this closely. Humans have such different smells from other animals. Most animals are covered by the scents of everywhere they've been, everything they've been close to. Humans smell mostly like themselves.
+
+The child holds its hand trembling under your muzzle. It's friendly but maybe intimidated, or maybe it just doesn't know how to start playing. You lick the child's hand. You're [[okay with this|begin playing]].
+
+
+:: begin playing
+
+Something whizzes past your head. You turn quickly and see a ball roll to a stop on the grass. You wonder how it got there.
+
+The other child looks at you like it's expecting something but you're not really sure what. You look back and forth between the child and the ball curiously. The child says something in a friendly voice but you're not really sure what it means.
+
+After waiting for you to do something, the child runs to pick up the ball and throws it past you again. It rolls past you to a stop on the ground.
+
+Soon the child starts bringing the ball to you after throwing it, dropping it at your feet. Suddenly something [[clicks]].
+
+
+:: clicks
+
+You tense your legs for the next time the child throws the ball. As soon as it's in the air, you leap at it and catch it before it hits the ground. Feeling proud of yourself, you sit holding the ball and wagging. You caught it!
+
+The child comes up to you and tries to take the ball away from you again.
+
+* [[Let the child have it]]
+* [[Keep it]]
+
+
+:: Keep it
+
+You caught the ball! It's yours now. You bite down on it a little bit harder to make sure it stays in your mouth. The child tries a little harder to pry it from you, and eventually the man has to come to take it out of your mouth. You're disapointed.
+
+<<display "second throw">>
+
+
+:: Let the child have it
+
+You're not sure why the child wants the ball back, but it doesn't matter much to you. You drop the ball and let it take it again. <<display "second throw">>
+
+
+:: second throw
+
+The child steps back a few feet and throws the ball again&mdash;harder. You leap joyfully for it again, easily catching it.
+
+This time the child watches you expectantly. It calls towards you like it wants you to come. You walk over curiously, and sit in front of the child. It gently takes the ball from you and puts it at its feet.
+
+You think you [[get it now]].
+
+
+:: get it now
+
+The child throws the ball a third time. You catch it easily, then walk back to the child and put it at its feet. The child says something nice and pats your head. You think you did the right thing.
+
+Now that the children know you understand the game they both start playing. Soon they're taking turns, or throwing the ball between each other and daring you to catch it. You're running all around the yard, catching the ball almost every time, bringing it back when you don't get too excited. You realize that this is the first time you've been able to run [[in months|played conclusion]].
+
+
+:: nothing
+
+You can't even think of what to do. This is too much. You still don't know why you're here, you don't know who this child is. You don't know that this isn't some kind of trick. The safest thing maybe is to do nothing at all.
+
+<<display "inaction followup">>
+
+
+:: inaction followup
+
+The child seems disappointed. It steps closer and puts its hand right under your nose. You can tell that the child wants you to touch it. You don't know what to do.
+
+* [[lick]]
+* [[lie down|lie down in backyard]]
+* [[nothing|nothing again]]
+
+
+:: lie down in backyard
+
+You're overwhelmed. This is too much.
+
+You lie down, muzzle brushing against the child's hand. You don't have the energy to pay attention to this child. You don't have the energy to play. You wish you could rest.
+
+The child kneels down next to you. It wraps an arm around you. You're too tired to stop it right away, so you let the child touch you.
+
+The feeling of its fingers in your fur is strange. Humans haven't touched you like this often, except when they want something. You're not sure the child wants anything. It just sits with you.
+
+* [[growl]]
+* [[lick]]
+* [[nothing|nothing again]]
+
+:: nothing again
+
+No.
+
+You're lost and you're afraid. You don't know if doing something will mean that you will be taken to another, worse place.
+
+You ignore the child. You stand perfectly still, doing nothing. Nothing is safe, but this is the [[safest thing|didn't play conclusion]].
+
+
+:: didn't play conclusion
+
+You stay alone in the yard for hours. You grow tired of standing after awhile, and you lie down. You try to sleep. You don't think about much.
+
+The sun slowly goes down, then it grows dark. The day ends. Finally, when you're too tired to do much about it, the man comes back to put you in the machine again and [[takes you back|stop thinking]].
+<<if $thoughts['visit']>> <<set $heat = $heat + 1>> <<endif>>
+<<set $thoughts['visit'] = false>>
+
+:: played conclusion
+
+You and the children play for hours. You don't pay attention to the time, so when the sky grows dark and you realize that it's night it surprises you.
+
+It's only when it's dark that the man calls to his children and asks them to come back. They look sad to leave you. You're sad too; you don't want them to go. One of the children hugs you before they both walk into the building and leave you alone.
+
+The man comes back out and guides you to the machine again to [[take you back|stop thinking]].
+<<if $thoughts['visit']>> <<set $heat = $heat + 1>> <<endif>>
+<<set $thoughts['visit'] = false>>
