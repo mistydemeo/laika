@@ -58,7 +58,7 @@ There's a short drop just past the ledges. It's short enough that you think you 
 Behind you, your [[sisters and brother]] are sitting waiting for a big machine to come. The rest of the [[tunnel]] seems empty.
 
 <<set $train_arrival_turns = $train_arrival_turns + 1>>
-<<if $train_arrival_turns => 3>><<display "train arrival">><<endif>>
+<<if $train_arrival_turns gte 3>><<display "train arrival">><<endif>>
 
 
 :: tunnel
@@ -70,7 +70,7 @@ The lower part of the tunnel continues into the darkness, well off in the distan
 There are [[ledges]] on either side of you, which are where the big machines will stop. Your [[sisters and brother]] are lying down to doze until a machine comes.
 
 <<set $train_arrival_turns = $train_arrival_turns + 1>>
-<<if $train_arrival_turns => 3>><<display "train arrival">><<endif>>
+<<if $train_arrival_turns gte 3>><<display "train arrival">><<endif>>
 
 
 :: sisters and brother
@@ -84,7 +84,7 @@ It's your younger sister's first winter travelling; she was still too young to g
 You're standing a few feet away from the [[ledges]], and can see a good distance down the [[tunnel]].
 
 <<set $train_arrival_turns = $train_arrival_turns + 1>>
-<<if $train_arrival_turns => 3>><<display "train arrival">><<endif>>
+<<if $train_arrival_turns gte 3>><<display "train arrival">><<endif>>
 
 
 :: train arrival
