@@ -98,6 +98,8 @@ You stand up.
 
 
 :: think
+You try to think about something else.
+
 <<if $thoughts['streets']>>* [[Home]]<<endif>>
 <<if $thoughts['visit']>>* [[The trip out]]<<endif>>
 <<if $thoughts['noise']>>* [[The big noise]]<<endif>>
