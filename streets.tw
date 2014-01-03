@@ -6,9 +6,7 @@ A very long time ago (almost longer than you can remember), you lived in another
 
 Not that there weren't humans here&mdash;they came through often during the day (rarely at night). But most of the time the humans were alone, or in small packs. It was almost never crowded. Crowds were dangerous. Crowds didn't like dogs that lived with dogs outside. That was why you stayed away from the city. Some dogs said that there was much more food in the city, and that life was easier there. That could be true. But dogs who lived in the city disappeared.
 
-You lived in your home with your mother, your brothers, your sisters. There were many of you in the pack. You used to run together, looking for food, finding exciting things. There were bad times, sometimes, but never as many as the good. You loved it there.
-
-[[that day]]
+You lived in your home with your mother, your brothers, your sisters. There were many of you in the pack. You used to run together, looking for food, finding exciting things. There were bad times, sometimes, but never as many as the good. You loved it there, until [[that day]].
 
 
 :: that day
@@ -33,11 +31,11 @@ That was why you went out [[one winter morning]].
 
 :: one winter morning
 
-It was a terribly cold day. The snow made it hard to even run, and on days that dogs don't like to run neither will the prey. The squirrels had long ago gone to sleep in their trees, and the birds had gone away. There were animals at home but not many. There were far more hungry dogs than animals.
+It was a terribly cold day. The snow made it hard to even run, and on days that dogs don't like to run neither will the prey. The squirrels had long ago left to sleep in their trees, and the birds had gone away. There were animals at home but not many. There were far more hungry dogs than animals.
 
 So many days you went out. The routine began and ended about the same every time. You would wake up while it was still dark and make your way to the building with the magic machine, carefully. If you went too early, the building was sealed shut; if you went too late, there would be too many humans for it to be safe.
 
-But at this time it was safe. Humans didn't like to come out at that hour. Most days the only human around was the human by the door, usually too sleepy to be able to care much about a few dogs.
+But at this time it was safe. Humans didn't like to come out at that hour. Most days the only human around was the human by the door, usually too sleepy to be able to care about a few dogs.
 
 Today there is no one but a single human. You think they're asleep. You, your sisters, and your brother walk quietly to go past them and [[down the stairs]] into the tunnel.
 
@@ -53,24 +51,22 @@ There was very little light. The sun and moon can't reach here, but there are st
 
 :: ledges
 
-There's a short drop just past the ledges. It's short enough that you think you could jump back up if you fell, but you're very careful not to get too close. Last winter, one of your sisters jumped down to explore how far the tunnel went and was killed by one of the big machines when it came.
+There's a short drop just past the ledges. It's short enough that you think you could jump back up if you fell, but you're very careful not to get too close. Last winter, one of your sisters jumped down to explore how far the tunnel went; she was killed by one of the big machines when it came.
 
 Behind you, your [[sisters and brother]] are sitting waiting for a big machine to come. The rest of the [[tunnel]] seems empty.
 
-<<set $train_arrival_turns = $train_arrival_turns + 1>>
-<<if $train_arrival_turns gte 3>><<display "train arrival">><<endif>>
+<<set $train_arrival_turns = $train_arrival_turns + 1>> <<if $train_arrival_turns gte 3>><<display "train arrival">><<endif>>
 
 
 :: tunnel
 
 The tunnel goes on for awhile; it would take you a few minutes to walk all the way down. It's dark, but there's enough light that you can tell there isn't anyone else down there. That's good. You don't usually see other dogs, but you don't want to run into any humans.
 
-The lower part of the tunnel continues into the darkness, well off in the distance. That's where the big machines come from and go. They're loud enough and bright enough that you can tell when one is coming, but there isn't anything now.
+The lower part of the tunnel continues into the darkness, well off in the distance. That's where the big machines come and go. They're loud enough and bright enough that you can tell when one is coming, but there isn't anything now.
 
 There are [[ledges]] on either side of you, which are where the big machines will stop. Your [[sisters and brother]] are lying down to doze until a machine comes.
 
-<<set $train_arrival_turns = $train_arrival_turns + 1>>
-<<if $train_arrival_turns gte 3>><<display "train arrival">><<endif>>
+<<set $train_arrival_turns = $train_arrival_turns + 1>> <<if $train_arrival_turns gte 3>><<display "train arrival">><<endif>>
 
 
 :: sisters and brother
@@ -83,8 +79,7 @@ It's your younger sister's first winter travelling; she was still too young to g
 
 You're standing a few feet away from the [[ledges]], and can see a good distance down the [[tunnel]].
 
-<<set $train_arrival_turns = $train_arrival_turns + 1>>
-<<if $train_arrival_turns gte 3>><<display "train arrival">><<endif>>
+<<set $train_arrival_turns = $train_arrival_turns + 1>> <<if $train_arrival_turns gte 3>><<display "train arrival">><<endif>>
 
 
 :: train arrival
@@ -106,7 +101,7 @@ Your brother picked one of the long benches; he's rolled himself into a ball at 
 
 Your older sister is already asleep on one of the benches. There's enough room for you next to her though, so you jump up and lay your head down on her back as a pillow. She grunts, but doesn't seem motivated enough to do anything about it.
 
-The rising and falling of your head as she breathes is hypnotic, and you find yourself nearly falling alseep. You try to stay awake and merely doze, so you can still pay attention to your surroundings.
+The rising and falling of your head as she breathes is hypnotic, and you find yourself nearly falling asleep. You try to stay awake and merely doze, so you can still pay attention to your surroundings.
 
 <<display "waiting on the train">>
 
@@ -171,7 +166,7 @@ Your older sister has her nose close to the ground; she seems to be stalking a s
 
 The giant box smells like more kinds of food than you know how to recognize. You can't explain why humans dump their food into places like this&mdash;don't they want it? You want it!
 
-Fortunately, it looks like the top of the box is open. Some of these boxes are sealed shut, which you don't understand; if they don't want the food in it, wouldn't they at least like someone else to have it? Thankfully you can reach this one, even if the entrance is high up off the ground. You step back, ready yourself, then [[leap|leap into the box]] over the ledge.
+Fortunately, it looks like the top of the box is open. Some of these boxes are sealed shut, which you don't understand; if they don't want the food, why wouldn't they want someone else to have it? Thankfully you can reach this one, even if the entrance is high up off the ground. You step back, ready yourself, then [[leap|leap into the box]] over the ledge.
 
 
 :: leap into the box
@@ -198,12 +193,12 @@ You try to avoid looking like you've noticed them, but you get more nervous as t
 
 One of the human men whistles and waves his hand towards you, like he wants you to come up to him. You don't like that. Sometimes if you're very hungry the risk can be worth it, but never when you're full. It doesn't even look like he has any food.
 
-He kneels down and reaches his hand out to you, palm up&mdash;still empty. You keep backing away. Your tail is low and your ears are flat against your head. He says something, in that high-pitched voice humans think dogs find appealing. Finally, as you keep moving away, he seems to lose patience and gets back up to talk with the other humans next to him. You [[turn to walk away]] with your sisters and your brother.
+He kneels down and reaches his hand out to you, palm up&mdash;still empty. You keep backing away. Your tail is low and your ears are flat against your head. He says something, in that high-pitched voice humans think dogs like. Finally, as you keep moving away, he seems to lose patience and gets back up to talk with the other humans next to him. You [[turn to walk away]] with your sisters and your brother.
 
 
 :: turn to walk away
 
-Something shoots past your ear and hits something metal next to you. You run. You don't need to look back to know that whatever it was it came from that human.
+Something shoots past your ear and hits a can next to you. You run. You don't need to look back to know that whatever it was it came from that human.
 
 One of the humans shouts&mdash;you don't care which one&mdash;and you can hear them start to run after you. You run faster now. You've already lost sight of your sisters and your brother but right now that doesn't matter, you can find them again later. The alleyway continues [[straight|alley straight]], and turns off to [[the left|alley left]] and [[the right|alley right]].
 
