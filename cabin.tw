@@ -14,20 +14,20 @@ jQuery: on
 :: Start
 You are in a ROCKET. Obvious exits are NOWHERE.
 
-<<set $heat = 0>>
-<<set $cabinactions = {}>>
+<<set $heat = 0>> \
+<<set $cabinactions = {}>> \
 <<set $thoughts = {
 	streets: true,
 	visit: true,
 	noise: true
-}>>
+}>> \
 <<display "Cabin actions">>
 
 
 :: Cabin actions
-<<if $cabinactions["smell"] and $cabinactions["look"] and $cabinactions["feel"] and $cabinactions["move"]>>
+<<if $cabinactions["smell"] and $cabinactions["look"] and $cabinactions["feel"] and $cabinactions["move"]>> \
 * [[think]]
-<<else>>
+<<else>> \
 <<actions "smell" "look" "feel" "move">>
 <<endif>>
 
@@ -39,7 +39,7 @@ When the big noise happened, you were very scared and marked the small room to m
 
 You also smell your SWEAT. It is very hot inside the small room and you feel bad. You have been sweating and panting since the big noise.
 
-<<set $cabinactions["smell"] = true>>
+<<set $cabinactions["smell"] = true>> \
 <<display "Cabin actions">>
 
 
@@ -48,7 +48,7 @@ It is PITCH BLACK. You can see nothing inside. You don't have room to turn your 
 
 All you can see is the small [[WINDOW|window]] in front of you.
 
-<<set $cabinactions["look"] = true>>
+<<set $cabinactions["look"] = true>> \
 <<display "Cabin actions">>
 
 
@@ -70,7 +70,7 @@ When you lie down, you notice two strange things next to your head. They feel li
 
 You notice when you turn your head that it feels like something is stuck to you. You really really want to scratch at it so it goes away, but your leg can't reach your head. There isn't enough room to scratch anything. You whine and hope it goes away soon.
 
-<<set $cabinactions["feel"] = true>>
+<<set $cabinactions["feel"] = true>> \
 <<display "Cabin actions">>
 
 
@@ -81,13 +81,14 @@ You notice when you turn your head that it feels like something is stuck to you.
 :: Cabin movement actions
 You can't move. The room is very small. You have enough room to stand up, or to lie down. You try to turn around, but you can't&mdash;the BED you are in is too narrow.
 
-<<if $sit>>
+<<if $sit>> \
 [[stand up]]
-<<else>>
+<<else>> \
 [[lie down]]
 <<endif>>
 
-<<set $cabinactions["move"] = true>> <<display "Cabin actions">>
+<<set $cabinactions["move"] = true>> \
+<<display "Cabin actions">>
 
 
 :: lie down
@@ -115,7 +116,8 @@ You try to think about something else.
 
 
 :: stop thinking
-<<set remove_white()>>You are still in the small room.
+<<set remove_white()>> \
+You are still in the small room.
 
 <<if $heat == 0>><<display "Heat 0">>
 <<else if $heat == 1>><<display "Heat 1">>
