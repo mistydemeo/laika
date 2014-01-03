@@ -9,3 +9,18 @@ clauses.push(currentClause);currentClause="";t=src.indexOf(">>",i+6);if(src.subs
 }try{if(endPos!=-1){parser.nextMatch=endPos;for(i=0;i<clauses.length;i++){if(eval(conditions.shift())){new Wikifier(place,clauses[i ].trim());
 break;}}}else{throwError(place,"can't find matching endif");}}catch(e){throwError(place,"bad condition: "+e.message);
 }}};
+
+
+:: set css [script]
+
+window.turn_white = function() {
+	jQuery('html').addClass('white');
+	jQuery('body').addClass('white');
+	jQuery('#main-container').addClass('white');
+}
+
+window.remove_white = function() {
+	jQuery('html').removeClass('white');
+	jQuery('body').removeClass('white');
+	jQuery('#main-container').removeClass('white');
+}

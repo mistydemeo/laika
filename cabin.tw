@@ -115,7 +115,7 @@ You try to think about something else.
 
 
 :: stop thinking
-You are still in the small room.
+<<set remove_white()>>You are still in the small room.
 
 <<if $heat == 0>><<display "Heat 0">>
 <<else if $heat == 1>><<display "Heat 1">>

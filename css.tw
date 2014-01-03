@@ -82,3 +82,9 @@ html.js
 	margin-right: 3em;
 	display: inline-block;
 }
+
+.white
+{
+	background-color: white;
+	color: black !important; /* HACK */
+}
