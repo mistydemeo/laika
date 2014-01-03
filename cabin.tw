@@ -25,7 +25,7 @@ You are in a ROCKET. Obvious exits are NOWHERE.
 
 
 :: Cabin actions
-<<if $cabinactions["smell"] and $cabinactions["look"] and $cabinactions["feel"]>>
+<<if $cabinactions["smell"] and $cabinactions["look"] and $cabinactions["feel"] and $cabinactions["move"]>>
 * [[think]]
 <<else>>
 <<actions "smell" "look" "feel" "move">>
@@ -87,7 +87,7 @@ You can't move. The room is very small. You have enough room to stand up, or to 
 [[lie down]]
 <<endif>>
 
-<<display "Cabin actions">>
+<<set $cabinactions["move"] = true>> <<display "Cabin actions">>
 
 
 :: lie down
