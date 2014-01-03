@@ -37,7 +37,7 @@ The small room smells mostly like you.
 
 When the big noise happened, you were very scared and marked the small room to make it yours. You can still smell the urine now, but you're not sure it mattered. You don't think anyone else will try to take this place from you.
 
-You also smell your SWEAT. It is very hot inside the small room and you feel bad. You have been sweating and panting since the big noise happened.
+You also smell your SWEAT. It is very hot inside the small room and you feel bad. You have been sweating and panting since the big noise.
 
 <<set $cabinactions["smell"] = true>>
 <<display "Cabin actions">>
@@ -66,7 +66,7 @@ Your BED is hard and very small. The sides touch you on either side, so you don'
 
 You think that there is a wall at the back of the bed; your tail has touched it. But you can't turn around to check.
 
-When you lie down, you notice two strange things next to your head. It feels like metal. When you lick the first a tiny piece of food comes out; water comes out of the second. There isn't much, but the water makes you feel better.
+When you lie down, you notice two strange things next to your head. They feel like metal. When you lick the first a tiny piece of food comes out. Water comes out of the second. There isn't much, but the water makes you feel better.
 
 You notice when you turn your head that it feels like something is stuck to you. You really really want to scratch at it so it goes away, but your leg can't reach your head. There isn't enough room to scratch anything. You whine and hope it goes away soon.
 
@@ -165,7 +165,7 @@ It is very hot.
 
 You feel awful. You stopped trying to eat or drink hours ago. You haven't moved in a long time.
 
-You can't stop panting but you can't feel your tongue anymore. Your can't keep your breaths regular. The rasping hurts your throat. You're afraid of what would hurt if you stopped. Your muzzle lies in a small puddle of vomit but moving your muzzle is too painful. You ignore it.
+You can't stop panting but you can't feel your tongue anymore. Your can't keep your breaths regular. The rasping hurts your throat. You're afraid of what would hurt if you stopped. Your muzzle lies in a small puddle of vomit but moving it is too painful. You ignore it.
 
 You can't think about anything else anymore. Every thought is about the heat and the pain. Every breath is because of it and every breath fails.
 
