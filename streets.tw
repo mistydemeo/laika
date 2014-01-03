@@ -252,6 +252,7 @@ You bank to the side to dodge a garbage can but you lose your balance and stagge
 
 :: home collapse
 
+<<set turn_white()>> \
 You look up and see the humans approaching you. One of them says something. You try to scramble to your feet but your legs won't pay attention. They twitch uselessly. You fight to stay focused but your eyelids feel too heavy. You can barely keep your eyes open.
 
 The last thing you can remember is one of the humans reaching his arms down to pick you up. Then [[all is black|stop thinking]].

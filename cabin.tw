@@ -104,6 +104,7 @@ You stand up.
 
 
 :: think
+<<set remove_white()>> \
 You try to think about something else.
 
 <<if $thoughts['streets']>>* [[Home]]<<endif>>
