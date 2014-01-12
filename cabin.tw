@@ -177,4 +177,3 @@ Out of energy, you close your eyes. Maybe you can shut it all out for awhile. Yo
 
 :: and feel nothing
 
-<<set jQuery('#credits')[0].innerHTML = ''>>

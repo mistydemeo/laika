@@ -88,3 +88,8 @@ html.js
 	background-color: white;
 	color: black !important; /* HACK */
 }
+
+#credits
+{
+	display: none;
+}
